@@ -1,0 +1,165 @@
+@media(max-width:575px) {
+    .toggler-icon {
+        color: white;
+        font-size: 20px;
+    }
+
+    .navbar-brand img {
+        width: 90%;
+    }
+
+    .nav-item {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .phone1 {
+        display: none;
+    }
+
+    .phone1_img {
+        display: inherit;
+        width: 200px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .banner_content {
+        text-align: center;
+    }
+
+    .banner_content h1 {
+        font-size: 29px;
+        margin-top: 26px;
+    }
+
+    .btn_dawnload {
+        padding: 7px 10px;
+        margin: 0px 11px 20px 11px;
+    }
+
+    .btn_features {
+        padding: 7px 12px;
+        margin: 0px 12px 20px 0px;
+    }
+
+    .beautiful h5 {
+        margin-top: 30px;
+    }
+
+    .span_line2 {
+        margin: auto;
+    }
+
+    .beautiful {
+        text-align: center;
+    }
+
+    .design_icon {
+        width: 60%;
+        margin: auto;
+    }
+
+    .design_icon p {
+        text-align: start;
+    }
+
+    .beautiful {
+        padding: 20px 0;
+    }
+
+    .testimonial p {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .testimonial {
+        padding: 30px;
+    }
+
+    .client_img {
+        height: 55px;
+        width: 55px;
+    }
+
+    .client_des {
+        font-size: 10px;
+    }
+
+    .Great_theme h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .pricing {
+        margin-bottom: 45px;
+    }
+
+    .contact-form form input {
+        background: transparent;
+        width: 90%;
+        margin: auto;
+        padding: 16px 10px;
+        color: white;
+        border: 1px solid #9999;
+    }
+
+    .contact-form form {
+        padding: 25px 9px 0;
+        width: 30%;
+        height: 550px;
+    }
+
+    .contact-form {
+        bottom: -475px;
+        width: 900px;
+    }
+
+    .contact-form form textarea {
+        height: 185px;
+    }
+
+
+    .contact-form form input[type="submit"] {
+        width: 124px;
+        height: 54px;
+        font-size: 14px;
+    }
+
+    .map {
+        margin-top: 400px;
+        background: #ededed;
+    }
+
+    .icon {
+        margin-top: 25px;
+    }
+
+    .icon-part {
+        margin-bottom: 94px;
+    }
+
+    .testimonial h1 {
+        font-size: 31px;
+        margin-bottom: 16px;
+    }
+
+    .footer-icon ul li a {
+        margin-right: 25px;
+        font-size: 18px;
+    }
+
+    .copywrite p {
+        font-size: 14px;}
+
+
+
+
+
+        
+}

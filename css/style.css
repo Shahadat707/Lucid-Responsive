@@ -1,0 +1,592 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .55);
+    color: white;
+    font-family: 'Source Sans Pro';
+    position: relative;
+    padding: 0%;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    position: absolute;
+    content: '';
+    left: 0%;
+    bottom: 0%;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 47%;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    position: absolute;
+    content: '';
+    right: 0%;
+    bottom: 0%;
+    width: 0%;
+    height: 2px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:after {
+    width: 47%;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.banner_content {
+    min-height: 90vh;
+    align-items: center;
+}
+
+.banner_content h5 {
+    color: #008ed6;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.banner_content h1 {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    color: white;
+    font-size: 42px;
+    margin-top: 35px;
+}
+
+.banner_content p {
+    color: #999999;
+    margin-top: 30px;
+    margin-bottom: 61px;
+    font-size: 16px;
+}
+
+.phone1 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.btn_dawnload {
+    background: #008ed6;
+    color: white;
+    padding: 8px 14px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    /* width: 160px; */
+}
+
+.btn_dawnload:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid #008ed6;
+}
+
+.btn_features {
+    background: transparent;
+    color: white;
+    padding: 8px 21px;
+    border: 1px solid #008ed6;
+    /* width: 160px; */
+}
+
+.btn_features:hover {
+    background: #008ed6;
+    color: white;
+    border: 2px solid #008ed6;
+}
+
+.features_list h6 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+}
+
+.features_list h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro';
+}
+
+.span_line {
+    margin: auto;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.span_line span {
+    display: block;
+    height: 3px;
+    width: 45px;
+    background: #008ed6;
+    border-radius: 3px;
+}
+
+.list_item {
+    text-align: center;
+}
+
+.list_item h2 {
+    font-family: 'Source Sans Pro';
+    margin: 20px 0 10px 0;
+}
+
+.list_item p {
+    font-family: 'Source Sans Pro';
+    color: #999999;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #999999;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    border-radius: 50%;
+    margin: auto;
+    color: #008ed6;
+}
+
+.beautiful {
+    padding: 60px 0;
+    overflow: hidden;
+    background: #f2f2f2;
+}
+
+.beautiful h5 {
+    margin-top: 85px;
+    color: #008ed6;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+}
+
+.beautiful h1 {
+    font-family: 'Source Sans Pro';
+}
+
+.beautiful p {
+    color: #999999;
+    margin-top: 12px;
+    font-family: 'Source Sans Pro'
+}
+
+.span_line2 {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.span_line2 span {
+    display: block;
+    height: 3px;
+    width: 45px;
+    background: #008ed6;
+    border-radius: 3px;
+}
+
+.design_icon {
+    color: #008ed6 !important;
+}
+
+.design_icon p {
+    color: black !important;
+    font-family: 'Source Sans Pro'
+}
+
+.design_icon p i {
+    color: #008ed6;
+    height: 13px;
+    width: 15px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.testimonial {
+    background-image: url(../images/banner-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 61px;
+}
+
+.testimonial h5 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+}
+
+.testimonial h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro';
+    color: white;
+}
+
+.testimonial p {
+    padding: 80px 24px 0 50px;
+    color: white;
+    font-family: 'Source Sans Pro';
+}
+
+.client {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+.client_img {
+    width: 80px;
+    height: 80px;
+    border: 0px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.client_des {
+    color: white;
+    font-size: 15px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    justify-content: center;
+    display: flex
+}
+
+.owl-dots .owl-dot span {
+    display: block;
+    height: 7px;
+    width: 7px;
+    background: transparent;
+    border-radius: 50%;
+    margin: 7px;
+    border: 1px solid #615a5a;
+}
+
+.owl-dots .active span {
+    display: block;
+    height: 10px;
+    width: 10px;
+    background: white;
+    border-radius: 50%;
+    margin: 7px;
+}
+
+.Great_theme {
+    padding: 40px 0;
+    background: #15141a;
+}
+
+.Great_theme h2 {
+    font-family: 'Source Sans Pro';
+    color: white;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #008ed6;
+}
+
+.heading h1 {
+    margin-bottom: 28px;
+}
+
+.heading span {
+    position: relative;
+    display: block;
+    height: 2px;
+    width: 60px;
+    margin: auto;
+}
+
+.heading span::before {
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 47%;
+    background-color: #008ed6;
+}
+
+.heading span::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 47%;
+    background-color: #008ed6;
+}
+
+.pricing {
+    text-align: center;
+    border: 1px solid silver;
+}
+
+.pricing h5 {
+    padding: 20px 0;
+    font-size: 26px;
+    font-weight: bold;
+    transition: .4s all ease-in-out;
+    border-bottom: 1px solid silver;
+}
+
+.pricing-table {
+    padding: 20px 0;
+    transition: .4s all ease-in-out;
+    border-bottom: 1px solid silver;
+}
+
+.pricing-table h1 {
+    font-size: 35px;
+}
+
+.pricing-table h2 {
+    color: #999999;
+    font-size: 20px;
+    transition: .4s all ease-in-out;
+}
+
+.pricing p {
+    padding: 31px;
+    color: #9999;
+}
+
+.pricing p span {
+    color: #1a73e8;
+}
+
+.btn-order {
+    transition: .4s all ease-in-out;
+    margin-bottom: 25px;
+    border: 1px solid #9999;
+    padding: 11px 28px;
+    color: #1a73e8;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.pricing:hover h5 {
+    color: #008ed6;
+}
+
+.pricing:hover .pricing-table {
+    background-color: #008ed6;
+    color: white;
+}
+
+.pricing:hover h2 {
+    color: #ffff;
+}
+
+.pricing:hover .btn-order {
+    color: white;
+    background-color: #008ed6;
+}
+
+.contact_us {
+    background-color: #ededed;
+    position: relative;
+    /* width: 711px; */
+}
+
+.icon-part {
+    text-align: center;
+    margin-bottom: 303px;
+}
+
+.icon-part a {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.last-icon {}
+
+.icon-part p {
+    font-size: 16px;
+    color: #9999;
+}
+
+.contact-form {
+    position: absolute;
+    /* left: 50%; */
+    bottom: -130px;
+    width: 900px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+.contact-form form {
+    background: black;
+    padding: 50px;
+    text-align: end;
+    width: 80%;
+    margin: auto;
+    height: 400px;
+}
+
+.contact-form form input {
+    background: transparent;
+    width: 90%;
+    margin: auto;
+    padding: 20px 10px;
+    color: white;
+    border: 1px solid #9999;
+}
+
+.contact-form form input::placeholder {
+    background-color: transparent;
+    color: #9999;
+    border: transparent;
+}
+
+.contact-form form textarea::placeholder {
+    background-color: transparent;
+    color: #9999;
+    border: transparent;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: transparent;
+    border-color: #9999;
+    outline: 0;
+    box-shadow: none;
+}
+
+.contact-form form textarea {
+    background: transparent;
+    width: 90%;
+    margin: auto;
+    border-color: #9999;
+}
+
+.contact-form form input[type="submit"] {
+    background-color: #008ed6;
+    width: 180px;
+    height: 63px;
+    color: white;
+    margin-right: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: .4s all ease-in-out;
+    border: 2px solid transparent;
+    margin-top: 15px;
+}
+
+.contact-form form input[type="submit"]:hover {
+    background-color: transparent;
+    border: 2px solid #9999;
+}
+
+.map {}
+
+footer {
+
+    background: black;
+}
+
+.footer-icon {}
+
+.footer-icon ul {
+
+    text-decoration: none;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.footer-icon ul li {
+    list-style: none;
+}
+
+.footer-icon ul li a {
+    color: #9999;
+    transition: all .4s ease-in-out;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.footer-icon ul li a:hover {
+    color: #008ed6;
+}
+
+.copywrite {}
+
+.copywrite p {
+
+    color: #9999;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none
+}
+
+.phone1_img {
+    display: none;
+}
